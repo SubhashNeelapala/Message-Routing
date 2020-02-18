@@ -1,0 +1,10 @@
+#!/home/user/Subhash/message-routing-system/routing_env/bin/python3
+# EASY-INSTALL-ENTRY-SCRIPT: 'jsondiff==1.1.1','console_scripts','jsondiff'
+__requires__ = 'jsondiff==1.1.1'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('jsondiff==1.1.1', 'console_scripts', 'jsondiff')()
+    )
